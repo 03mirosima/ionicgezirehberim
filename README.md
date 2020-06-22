@@ -27,9 +27,9 @@ https://play.google.com/store/apps/details?id=com.rstream.travel <br>
  - Angular Routing,Modules,Components,Data binding,Google Maps API,Ionic lists,buttons,cards gibi bileşenler kullanılmıştır.
  
  
-     Sezen Miray Uludüz
-     Kocaeli Üniversitesi
-     Bilişim Sistemleri Mühendisliği 4.Sınıf
+     Sezen Miray Uludüz<br>
+     Kocaeli Üniversitesi<br>
+     Bilişim Sistemleri Mühendisliği 4.Sınıf<br>
      Numara:161307052
   
        
