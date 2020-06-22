@@ -1,8 +1,0 @@
-{
-  "name": "ionic-homework",
-  "integrations": {
-    "capacitor": {},
-    "cordova": {}
-  },
-  "type": "angular"
-}
