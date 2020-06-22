@@ -22,12 +22,18 @@ https://play.google.com/store/apps/details?id=com.rstream.travel <br>
  <br>
  <img src="https://user-images.githubusercontent.com/36451517/84964744-94607380-b115-11ea-95ee-b8cfbf64fb7c.png" width="400">
  
-  - Projem referans aldığım projenin çoğu özelliğini basit bir seviyede yerine getiriyor.
+ - Projem referans aldığım projenin çoğu özelliğini basit bir seviyede yerine getiriyor.
  - Bu proje Ionic ile tasarlanmış Angular framework kullanarak yapılmıştır.
-  - Angular Routing,Modules,Components,Data binding,Google Maps API,Ionic lists,buttons,cards gibi bileşenler kullanılmıştır.
+ - Angular Routing,Modules,Components,Data binding,Google Maps API,Ionic lists,buttons,cards gibi bileşenler kullanılmıştır.
+ 
+ 
+     Sezen Miray Uludüz
+     Kocaeli Üniversitesi
+     Bilişim Sistemleri Mühendisliği 4.Sınıf
+     Numara:161307052
+  
+       
+     
                                                            
-                                                           Sezen Miray Uludüz
-                                                           Kocaeli Üniversitesi
-                                                           Bilişim Sistemleri
-                                                           161307052
+              
                                                            
