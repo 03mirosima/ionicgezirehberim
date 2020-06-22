@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="no-padding">
+  <ion-card>
+    <ion-img [src]="cities[city].img"></ion-img>
+    <ion-card-header>
+    
+      <ion-card-title color="secondary"  > <h1 class="ion-text-center" >{{ cities[city].title }}</h1></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-text>{{ cities[city].text }}</ion-text>
+      <br><br>
+      <ion-text color="secondary" ><h1 class="ion-text-center" >Görülebilecek Yerler</h1></ion-text>
+      <ion-list>
+      <ul > <li *ngFor="let yerler of  cities[city].yerler">  {{ yerler}}      </li>      </ul>
+     
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Notlar</ion-label>
+      <ion-button slot="end" (click)="presentModal()"><ion-icon name="add"></ion-icon></ion-button>
+    </ion-item>
+
+    <ion-item *ngFor="let note of cities[city].notes">
+      <ion-label text-wrap>
+        <h3>{{ note.author }}</h3>
+        <p>{{ note.text }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>

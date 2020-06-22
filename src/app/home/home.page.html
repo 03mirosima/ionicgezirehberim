@@ -1,0 +1,78 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <h1>Şehirler</h1>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+
+    <ion-item href="/city/samsun">
+      <ion-avatar slot="start">
+        <img src="/assets/cities/samsun_thumbnail.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h1>Samsun</h1>
+      </ion-label>
+    </ion-item>
+
+    <ion-item href="/city/ankara">
+      <ion-avatar slot="start">
+        <img src="/assets/cities/ankara_thumbnail.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h1>Ankara</h1>
+      </ion-label>
+    </ion-item>
+
+    <ion-item href="/city/trabzon">
+      <ion-avatar slot="start">
+        <img src="/assets/cities/trabzon_thumbnail.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h1>Trabzon</h1>
+      </ion-label>
+    </ion-item>
+
+    <ion-item href="/city/kocaeli">
+      <ion-avatar slot="start">
+        <img src="/assets/cities/kocaeli_thumbnail.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h1>Kocaeli</h1>
+      </ion-label>
+    </ion-item>
+
+    <ion-item href="/city/istanbul">
+      <ion-avatar slot="start">
+        <img src="/assets/cities/istanbul_thumbnail.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h1>İstanbul</h1>
+      </ion-label>
+    </ion-item>
+
+    <ion-item href="/city/bursa">
+      <ion-avatar slot="start">
+        <img src="/assets/cities/bursa_thumbnail.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h1>Bursa</h1>
+      </ion-label>
+    </ion-item>
+
+    <ion-item href="/city/amasya">
+      <ion-avatar slot="start">
+        <img src="/assets/cities/amasya_thumbnail.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h1>Amasya</h1>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-button (click)="btnClicked()" routerLink="./map.page">  Harita  </ion-button>
+</ion-content>

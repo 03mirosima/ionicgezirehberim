@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-item>
+    <ion-title>Yeni not ekle</ion-title>
+    <ion-button slot="end" (click)="close()"><ion-icon name="close"></ion-icon></ion-button>
+  </ion-item>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="add()">
+    <ion-item>
+      <ion-label>İsim:</ion-label>
+      <ion-input required type="text" [(ngModel)]="newNote.author" name="author"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Not:</ion-label>
+      <ion-textarea required [(ngModel)]="newNote.text" name="note"></ion-textarea>
+    </ion-item>
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col class="ion-text-center">
+          <ion-button type="submit">Notu kaydet</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>
