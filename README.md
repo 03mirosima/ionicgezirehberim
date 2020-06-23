@@ -1,4 +1,4 @@
-****Projemin çalışması için bilgisayarda Git Bash yüklü olmalı ya da daha önce bir git komutu çalıştırılmış olmalıdır.
+****Projenin gerekli dosyaları indirip çalışması için bilgisayarınızda Git Bash yüklü olmalıdır.
 
 Benim Mobil Uygulama Projesi için referans aldığım uygulama aşağıdaki linkte verilmiştir:
 https://play.google.com/store/apps/details?id=com.rstream.travel <br>
